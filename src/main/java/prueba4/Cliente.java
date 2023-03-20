@@ -9,7 +9,7 @@ public class Cliente {
 
     public static void main(String[] args) throws Exception {
 
-        Socket socket = new Socket("192.168.18.135", 12347);
+        Socket socket = new Socket("192.168.18.135", 12348);
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 

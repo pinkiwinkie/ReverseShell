@@ -10,7 +10,7 @@ public class Servidor {
 
     public static void main(String[] args) throws Exception {
 
-        ServerSocket serverSocket = new ServerSocket(12347);
+        ServerSocket serverSocket = new ServerSocket(12348);
 
         while (true) {
             Socket socket = serverSocket.accept();
@@ -18,18 +18,18 @@ public class Servidor {
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             String comando;
-
+//hay que hacer tryCatch porque si escribes mal el comando te salta:
+//    Exception in thread "main" java.io.IOException:
+//    Cannot run program "genome-t": error=2, No existe el fichero o el directorio
+            String linea ;
             do {
                 System.out.print("Comando: ");
                 comando = new BufferedReader(new InputStreamReader(System.in)).readLine();
                 out.println(comando);
-                String linea;
-                while ((linea = in.readLine()) != null) {
-                    System.out.println(linea);
-                }
-            } while (!comando.equals("exit"));
-
-            socket.close();
+                linea = in.readLine();
+                System.out.println(linea);
+            } while (true);
+//            socket.close();
         }
     }
 }

@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ac7f57-f3f3-4eea-ab3c-372f077427a2" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1/Conexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1/MainCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1/MainServidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba1/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba2/ClienteSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba2/EjemploSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba3/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba3/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba4/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba4/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba5/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba5/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba6/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prueba6/Servidor.java" afterDir="false" />
+    <list default="true" id="93ac7f57-f3f3-4eea-ab3c-372f077427a2" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prueba4/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prueba4/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prueba4/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prueba4/Servidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +48,29 @@
     "last_opened_file_path": "/home/win/IdeaProjects/ReverseShell/src/main/java/prueba6"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainCliente">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/prueba6" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="prueba2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.prueba4.Servidor">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba5.Cliente" />
+      <module name="ReverseShell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prueba5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prueba1.MainCliente" />
       <module name="ReverseShell" />
@@ -77,12 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainServidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prueba1.MainServidor" />
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba5.Servidor" />
       <module name="ReverseShell" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prueba1.*" />
+          <option name="PATTERN" value="prueba5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba4.Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba4.Cliente" />
+      <module name="ReverseShell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prueba4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba4.Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba4.Servidor" />
+      <module name="ReverseShell" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prueba4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.prueba4.Cliente" />
+        <item itemvalue="Application.prueba4.Servidor" />
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
         <item itemvalue="Application.MainCliente" />
-        <item itemvalue="Application.MainServidor" />
       </list>
     </recent_temporary>
   </component>
@@ -120,11 +156,19 @@
       <option name="project" value="LOCAL" />
       <updated>1679083786649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1679345192255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345192255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
